@@ -23,6 +23,9 @@ console.log(greet("Mayung aga", ["Mario", "Carl", "Bobet", "Kas", "Mico"]));
 //querySelector
 const heading = document.querySelector("h1");
 heading.textContent = "Mario L. Baloyo Sr.";
+heading.style.color = "purple";
+heading.style.backgroundColor = "Yellow";
+heading.style.fontSize = "100px";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
