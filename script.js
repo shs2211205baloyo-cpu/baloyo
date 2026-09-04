@@ -20,7 +20,9 @@ function greet(greetings, names = []) {
 }
 console.log(greet("Mayung aga", ["Mario", "Carl", "Bobet", "Kas", "Mico"]));
 
+//querySelector
 const heading = document.querySelector("h1");
+heading.textContent = "Mario L. Baloyo Sr.";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
@@ -28,5 +30,6 @@ console.log(contactHeading);
 
 const projectHeading = document.querySelector("#services h2");
 console.log(projectHeading);
+
 
 
